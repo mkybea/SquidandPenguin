@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Squid and Penguin</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="./images/snp.ico" type="image/x-icon">
+<link href="./snp.css" rel="stylesheet">
+</head>
+<body>
+<header>
+	<img src="./images/squid.png" alt="Squid" width="220" height="100"">
+	<img src="./images/and.png" alt="and" width="50" height="100">
+	<img src="./images/penguin.png" alt="Penguin" width="270" height="110" style="transform:translateY(10%)">
+</header>
+<nav>
+	<ul>
+		<li><a href="./index.html">Home</a></li>
+		<li><a href="./comic.html">Comic</a></li>
+		<li><a href="./projects/projects.html">Projects</a>
+			<ul>
+				<li><a href="./projects/technology.html">Technology</a></li>
+				<li><a href="./projects/cookingbaking.html">Cooking & Baking</a></li>
+				<li><a href="./projects/garden.html">Garden</a></li>
+				<li><a href="./projects/arts.html">Arts</a></li>
+			</ul>
+		</li>
+		<li><a href="./adventures/adventures.html">Adventures</a></li>
+		<li><a href="./about.html">About</a></li>
+		<li><a href="./contact.html">Contact</a></li>
+	<ul>
+</nav>
+<img src="./images/ice.png" style="width: 100%; position: sticky; top: 0; z-index: -1;">
+<!--##### END HEADLINE #####-->
+<main>
+	<div class="formwrap">
+	<h2>Contact Squid and Penguin</h2>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name">
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email">
+		<label for="to">I wish to speak to:</label>
+		<input type="text" name="to" id="to" list="who">
+			<datalist id="who">
+				<option>Squid</option>
+				<option>Penguin</option>
+				<option>Both</option>
+			</datalist>
+		<label for="comment">Comment or Question:</label>
+		<textarea name="comment" id="comment" rows="9" cols="30"></textarea>
+		<br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+	<h2>Thank you!</h2>
+	</div>
+</main>
+<footer>
+	&copy;Squid and Penguin, 2019
+</footer>
+</body>
+</html>
